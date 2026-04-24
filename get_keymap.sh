@@ -15,7 +15,7 @@ keymap parse -z totem_clean.keymap > totem.yaml
 
 echo "Drawing SVG..."
 keymap draw totem.yaml \
-  --qmk-keyboard geigeigeist/totem \
+  --zmk-keyboard totem \
   > keymap.svg
 
 echo "Cleaning up temp files..."
