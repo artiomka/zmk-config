@@ -1,0 +1,22 @@
+name: Draw keymap
+on: [push, workflow_dispatch]
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw keymap
+        uses: caksoylar/keymap-drawer@main
+        with:
+          keymap_file: config/totem.keymap
+          output_file: keymap.svg
+          parse_config: |
+            zmk_additional_includes:
+              - zmk-nodefree-config
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ci: update keymap diagram"
+          file_pattern: keymap.svg
