@@ -163,8 +163,8 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-        &trans  &trans  &kp LPAR  &kp RPAR  &trans    &trans  &trans     &trans     &trans    &trans
-        &trans  &trans  &kp LBKT  &kp RBKT  &trans    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+        &trans  &trans  &kp LPAR  &kp RPAR  &kp UNDER    &trans  &trans     &trans     &trans    &trans
+        &trans  &trans  &kp LBKT  &kp RBKT  &kp UNDER    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
 &trans  &trans  &trans  &kp LBRC  &kp RBRC  &trans    &trans  &trans     &trans     &trans    &trans    &trans
                         &trans    &trans    &trans    &trans  &trans     &trans
             >;
