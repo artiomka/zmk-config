@@ -164,7 +164,7 @@
             display-name = "Num";
             bindings = <
         &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans
-        &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+        &kp N0     &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
 &trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans     &trans     &trans    &trans    &trans
                            &kp DOT  &kp N0  &kp MINUS    &trans  &trans     &trans
             >;
@@ -174,7 +174,7 @@
             display-name = "Sym";
             bindings = <
            &kp PRCNT  &kp HASH   &kp LPAR  &kp RPAR  &kp UNDER    &trans  &trans     &trans     &trans    &trans
-           &kp AT     &kp ASTRK  &kp LBKT  &kp RBKT  &kp UNDER    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+           &kp AT     &kp ASTRK  &kp LBKT  &kp RBKT  &kp UNDER    &kp MINUS  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
 &double_star  &kp DLLR   &kp AMPS   &kp LBRC  &kp RBRC  &kp EXCL     &trans  &trans     &trans     &trans    &trans    &trans
                           &trans    &trans    &trans    &trans  &trans     &trans
             >;
