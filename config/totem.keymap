@@ -13,6 +13,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define BASE        0
 #define NAV         1
@@ -153,10 +154,10 @@
         media_layer {
             display-name = "Media";
             bindings = <
-        &trans    &trans    &trans     &trans     &trans    &trans      &trans        &trans        &trans      &trans
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP
-                            &trans     &trans     &trans    &kp C_STOP  &kp C_PP      &kp C_MUTE
+        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans        &trans        &trans      &trans
+        &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &bt BT_CLR      &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
+&trans  &trans        &trans        &trans        &trans        &bt BT_CLR_ALL  &trans      &trans        &trans        &trans      &trans  &kp C_SLEEP
+                                    &trans        &trans        &trans          &kp C_STOP  &kp C_PP      &kp C_MUTE
             >;
         };
 
