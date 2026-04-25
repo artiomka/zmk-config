@@ -141,7 +141,7 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-        &trans    &trans    &trans     &trans     &trans    &kp LS(INS)  &kp LC(INS)  &kp LS(DEL)  &kp K_UNDO  &kp K_AGAIN
+        &kp N1    &kp N2    &kp N3     &kp N4     &kp N5    &kp N6       &kp N7       &kp N8       &kp N9      &kp N0
         &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT   &caps_word
 &trans  &trans    &trans    &trans     &trans     &trans    &kp HOME     &kp PG_DN    &kp PG_UP    &kp END     &kp INS      &trans
                             &kp RET    &kp BSPC   &kp DEL   &trans       &trans       &trans
