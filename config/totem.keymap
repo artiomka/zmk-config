@@ -172,7 +172,7 @@
             display-name = "Num";
             bindings = <
         &trans  &trans     &trans     &trans    &trans       &kp LBKT  &kp N7  &kp N8   &kp N9  &kp N0
-        &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI     &trans    &kp N4  &kp N5   &kp N6  &kp EQUAL
+        &trans  &kp LGUI   &kp LALT   &kp LCTRL &kp LSHFT    &trans    &kp N4  &kp N5   &kp N6  &kp EQUAL
 &trans  &trans  &trans     &trans     &trans    &trans       &kp GRAVE &kp N1  &kp N2   &kp N3  &kp MINUS  &trans
                            &trans     &trans    &trans       &kp DOT   &kp N0  &kp MINUS
             >;
@@ -181,9 +181,9 @@
         sym_layer {
             display-name = "Sym";
             bindings = <
-        &trans     &trans     &trans    &trans    &trans       &kp PRCNT  &kp HASH   &kp LPAR  &kp RPAR  &kp UNDER
-        &kp MINUS  &kp LSHFT  &kp LCTRL &kp LALT  &kp LGUI     &kp AT     &kp ASTRK  &kp LBKT  &kp RBKT  &kp UNDER
-&trans  &trans     &trans     &trans    &trans    &trans       &kp DLLR   &kp AMPS   &kp LBRC  &kp RBRC  &kp EXCL  &double_star
+        &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK &kp LPAR  &kp RPAR
+        &kp MINUS  &kp LGUI   &kp LALT  &kp LCTRL &kp LSHFT    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
+&trans  &trans     &trans     &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &double_star
                               &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
@@ -192,7 +192,7 @@
             display-name = "Fun";
             bindings = <
         &kp F12  &kp F7  &kp F8     &kp F9     &kp PSCRN          &trans  &trans     &trans     &trans    &trans
-        &kp F11  &kp F4  &kp F5     &kp F6     &kp SLCK           &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+        &kp F11  &kp F4  &kp F5     &kp F6     &kp SLCK           &trans  &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT
 &trans  &kp F10  &kp F1  &kp F2     &kp F3     &kp PAUSE_BREAK    &trans  &trans     &trans     &trans    &trans    &trans
                          &kp K_APP  &kp SPACE  &kp TAB            &trans  &trans     &trans
             >;
